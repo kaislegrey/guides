@@ -1,0 +1,62 @@
+/* content.scss */
+/* Content region styles - CONTAINS: pageContent and sidebars*/
+#content {
+  padding: $margin-default 0;
+  margin-bottom: $margin-default * 4;
+  a.active {
+    // font-weight: bold;
+    // font-style: italic;
+    // color: $body-font-color;
+  }
+  .user-picture {
+    display: block;
+    float: left;
+    margin: 0 0.75em 0.75em 0;
+  }
+  .submitted {
+    color: $info-color;
+    font-size: 0.9em;
+    margin-bottom: $margin_default;
+  }
+  .node {
+    margin-bottom: $margin-default;
+    padding: 0 0 $margin-default 0;
+    border-bottom: 1px solid darken($body-bg, 10%);
+    .links a {
+      font-style: normal;
+      font-size: 0.9em;
+    }
+    ul.links.inline {
+      text-transform: uppercase;
+      font-size: 0.8em;
+      margin: 1em 0;
+      padding: 0;
+      li {
+        margin: 0 0.75em 0 0;
+        padding: 0;
+      }
+    }
+  }
+
+  #pageContent {
+    .pageContent {
+    }
+  }
+
+  #sidebar-first, #sidebar-second {
+    font-size: 0.9em;
+    h2 {
+      font-size: $h3-font-size;
+    }
+    h3 {
+      font-size: $h4-font-size;
+    }
+    h4 {
+      font-size: $h5-font-size;
+    }
+    .node {
+      margin-bottom: 0.3em;
+      padding: 0.3em 0;
+    }
+  }
+}

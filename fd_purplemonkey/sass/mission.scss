@@ -1,0 +1,29 @@
+/* mission.scss */
+// @import "partials/settings";
+// @import "partials/foundation";s
+
+/* Mission region styles */
+#mission {
+  background-color: darken($primary-color, 10%);
+  background-image: url("../images/hero-image.svg");
+  background-repeat: no-repeat;
+  background-position: 80% 30%;
+  background-size: 40%;
+  padding: ($margin-default * 2) 0;
+  color: $negative;
+  font-size: 1.2em;
+  h1 {
+    color: $negative;
+  }
+  #CTA {
+    ul {
+      li {
+        a {
+          display: block;
+          float: left;
+          margin: 0 $margin-default 0 0;
+        }
+      }
+    }
+  }
+}
